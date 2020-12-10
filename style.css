@@ -102,4 +102,9 @@ img {
 }
 .pages {
 	text-align: center;
+	width: 700px;
+	margin: auto;
+}
+.project li {
+	list-style-type: none;
 }
