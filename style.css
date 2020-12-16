@@ -112,6 +112,11 @@ img {
 .project li {
 	list-style-type: none;
 }
+.project li:nth-child(odd) {
+	background-color: var(--off-white);
+	padding: 30px;
+	margin-top: 20px;
+}
 .hero {
 	text-align: center;
 }
