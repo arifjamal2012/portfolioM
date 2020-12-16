@@ -10,6 +10,10 @@ body {
 	--off-white: #e5e7eb;
 }
 
+.active {
+	color: blueviolet;
+}
+
 .link {
 	box-sizing: border-box;
 	text-decoration: none;
@@ -107,4 +111,7 @@ img {
 }
 .project li {
 	list-style-type: none;
+}
+.hero {
+	text-align: center;
 }
