@@ -12,6 +12,10 @@ body {
 
 .active {
 	color: blueviolet;
+	font-size: large;
+}
+.nav a:hover {
+	color: blueviolet;
 }
 
 .link {
