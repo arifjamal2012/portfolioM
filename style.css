@@ -136,9 +136,11 @@ img {
 @media only screen and (max-width: 810px) {
 	body {
 		min-height: 100%;
+		overflow-x: hidden;
 	}
 	html {
 		height: 100%;
+		overflow-x: hidden;
 	}
 	.nav {
 		width: 100%;
@@ -151,5 +153,12 @@ img {
 	}
 	.project {
 		width: 80%;
+	}
+	.projects {
+		width: 94%;
+	}
+	img {
+		width: 105%;
+		height: auto;
 	}
 }
