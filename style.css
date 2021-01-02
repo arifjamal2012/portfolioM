@@ -127,6 +127,56 @@ img {
 .hero {
 	text-align: center;
 }
+.blog2 {
+	list-style-type: none;
+}
+.blog2para {
+	margin-right: 500px;
+	margin-top: 15px;
+	font-size: 18px;
+	background-color: rgb(126, 228, 24);
+}
+.blog2heading {
+	margin-right: 600px;
+	font-weight: bolder;
+	margin-top: 5px;
+}
+.blog2heading1 {
+	background-color: rgb(126, 228, 24);
+}
+.blog2para2 {
+	margin-right: 515px;
+	font-size: 18px;
+	background-color: rgb(213, 226, 34);
+}
+.blog2heading2 {
+	background-color: rgb(213, 226, 34);
+}
+
+.blog2para3 {
+	margin-right: 510px;
+	font-size: 18px;
+	background-color: rgb(221, 59, 9);
+}
+.blog2heading3 {
+	background-color: rgb(221, 59, 9);
+}
+.blog2para4 {
+	margin-right: 510px;
+	font-size: 18px;
+	background-color: rgb(18, 142, 214);
+}
+.blog2heading4 {
+	background-color: rgb(18, 142, 214);
+}
+.blog2para5 {
+	margin-right: 500px;
+	font-size: 18px;
+	background-color: rgb(195, 80, 206);
+}
+.blog2heading5 {
+	background-color: rgb(195, 80, 206);
+}
 @media only screen and (min-width: 823px) {
 	.nav {
 		width: 100%;

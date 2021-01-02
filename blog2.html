@@ -4,7 +4,123 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Blog | Portfolio</title>
+		<link rel="icon" type="image/png" href="/favico.png" />
 		<link href="style.css" rel="stylesheet" />
 	</head>
-	<body></body>
+	<body>
+		<div class="pages">
+			<h1>Blog page</h1>
+			<h2>HTTP response status codes</h2>
+			<small>December, 2020</small>
+			<img src="./images/httprequestresponse.jpeg" />
+			<div class="blog2">
+				<div>
+					HTTP response status codes indicate whether a specific HTTP request
+					has been successfully completed. Responses are grouped in five
+					classes:
+					<li>1. Informational responses (100–199)</li>
+					<li>2. Successful responses (200–299)</li>
+					<li>3. Redirects (300–399)</li>
+					<li>4. Client errors (400–499)</li>
+					<li>5. Server errors (500–599)</li>
+					<div>
+						<strong class="blog2para">Informational response</strong>
+						<p class="blog2heading1">100 Continue</p>
+						<p>
+							This interim response indicates that everything so far is OK and
+							that the client should continue the request, or ignore the
+							response if the request is already finished.
+						</p>
+					</div>
+					<div>
+						<strong class="blog2para2"> Successful responses</strong>
+						<p class="blog2heading2">200 Ok</p>
+						<p>
+							The request has succeeded. The meaning of the success depends on
+							the HTTP method:
+							<li>
+								GET: The resource has been fetched and is transmitted in the
+								message body.
+							</li>
+							<li>HEAD: The entity headers are in the message body.</li>
+							<li>
+								PUT/POST: The resource describing the result of the action is
+								transmitted in the message body.
+							</li>
+							<li>
+								TRACE: The message body contains the request message as received
+								by the server.
+							</li>
+						</p>
+						<p class="blog2heading2">201 Created</p>
+						<p>
+							The request has succeeded and a new resource has been created as a
+							result. This is typically the response sent after POST requests,
+							or some PUT requests.
+						</p>
+						<p class="blog2heading2">204 No Content</p>
+						<p>
+							There is no content to send for this request, but the headers may
+							be useful. The user-agent may update its cached headers for this
+							resource with the new ones.
+						</p>
+					</div>
+					<div>
+						<strong class="blog2para3"> Redirection messages</strong>
+						<p class="blog2heading3">304 Not Modified</p>
+						<p>
+							This is used for caching purposes. It tells the client that the
+							response has not been modified, so the client can continue to use
+							the same cached version of the response.
+						</p>
+					</div>
+					<div>
+						<strong class="blog2para4">Client error responses</strong>
+						<p class="blog2heading4">400 Bad Request</p>
+						<p>
+							The request could not be understood by the server due to malformed
+							syntax. The client should not repeat the request without
+							modifications.
+						</p>
+						<p class="blog2heading4">401 Unauthorized</p>
+						<p>
+							Although the HTTP standard specifies "unauthorized", semantically
+							this response means "unauthenticated". That is, the client must
+							authenticate itself to get the requested response.
+						</p>
+						<p class="blog2heading4">403 Forbidden</p>
+						<p>
+							The client does not have access rights to the content; that is, it
+							is unauthorized, so the server is refusing to give the requested
+							resource. Unlike 401, the client's identity is known to the
+							server.
+						</p>
+						<p class="blog2heading4">404 Not Found</p>
+						<p>
+							The server can not find the requested resource. In the browser,
+							this means the URL is not recognized. In an API, this can also
+							mean that the endpoint is valid but the resource itself does not
+							exist. Servers may also send this response instead of 403 to hide
+							the existence of a resource from an unauthorized client. This
+							response code is probably the most famous one due to its frequent
+							occurrence on the web.
+						</p>
+						<p class="blog2heading4">409 Conflict</p>
+						<p>
+							This response is sent when a request conflicts with the current
+							state of the server.
+						</p>
+					</div>
+					<div>
+						<strong class="blog2para5">Server error responses</strong>
+						<p class="blog2heading5">500 Internal Server Error</p>
+						<p>
+							The server has encountered a situation it doesn't know how to
+							handle.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
